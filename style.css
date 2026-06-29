@@ -3,7 +3,7 @@ margin:0;
 padding: 0;
 }
 
-. cabecalho {
+.cabecalho {
     padding: 15px 25px;
 display: flexx;
 justify-content:space-between;
@@ -25,8 +25,37 @@ body {
     display:flex;
     flex-direction: column;
     min-height: 100vh;
+
+
 }
 
 main {
     flex: 1;
+}
+
+
+.cabecalho-link {
+color: azure;
+text-decoration: none;
+}
+
+h1 {
+    color: ghostwhite;
+    font-size: 24px;
+}
+
+footer {
+background-color: darkblue;
+padding: 15px 25px;
+color: black;
+}
+
+.cartao-interno {
+position: relative;
+}
+
+.cartao-frente , .cartao-verso {
+    position: relative;
+    border-radius:  12px;
+    box-shadow: 0 6px 12px blue;
 }
